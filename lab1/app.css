@@ -1,0 +1,49 @@
+body {  
+	background:#ffffe0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #006400;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table ,th, td {
+	border: 2px solid black;
+}
+
+tr {
+	background-color: #deb887;
+}
+
+button {
+	 color: #fff;
+     background-color: #4caf50;
+     font-size: 16px;
+     padding: 0.5em 1em;
+}
