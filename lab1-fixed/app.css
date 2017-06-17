@@ -13,6 +13,7 @@ ul {
     background-color: #006400;
 }
 
+
 li {
     float: left;
 }
@@ -37,6 +38,7 @@ table ,th, td {
 	border: 2px solid black;
 }
 
+
 tr {
 	background-color: #deb887;
 }
@@ -47,3 +49,14 @@ button {
      font-size: 16px;
      padding: 0.5em 1em;
 }
+
+
+@media screen and (max-device-width: 480px){
+
+li {
+    display: list-item;
+    text-transform: uppercase;
+    padding: 15px;
+    }
+}
+
