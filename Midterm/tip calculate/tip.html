@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<! add information about html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" type="text/css" href="tip.css">
+    <script type="text/javascript" src="tip.js"></script>
+</head>
+
+<body>
+    <! body include header, main, footer>
+
+    <header>
+        <h1>Tip Calculator</h1>
+    </header>
+
+    <! add main contents in main>
+    <main>
+        <div id="wrapper">
+            <form action="javascript:void(calc())">
+                <label>Bill:</label><br>
+                <input id="bill" type="text"><br><br>
+                <label>Tip %:</label><br>
+                <input id="tip" type="text">
+
+                <input type="submit" value="Calculate Tip">
+                <br> <br> Tip: <span id="tip_rate"></span>
+                <br> Total: <span id="total"></span>
+                <br><br>
+
+
+            </form>
+        </div>
+    </main>
+    <!end of main>
+
+    <footer>
+        <p>@2017 Midterm Tip calculator </p>
+    </footer>
+</body>
+
+</html>
