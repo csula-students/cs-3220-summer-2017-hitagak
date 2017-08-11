@@ -1,0 +1,12 @@
+<taglib>
+   <tlib-version>1.0</tlib-version>
+    <jsp-version>2.0</jsp-version>
+    <short-name>header</short-name>
+    <uri>customer-header-hw4.tld</uri>
+ 
+    <tag>
+       <name>CustomerHeader_hw4</name>
+       <tag-class>hw4_customer.CustomerHeader</tag-class>
+       <body-content>empty</body-content>
+    </tag>
+ </taglib>
